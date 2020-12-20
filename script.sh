@@ -1,5 +1,5 @@
 #!/bin/bash
-ec "This was firt test"
+echo "This was firt test"
 #hello
 # hi Geta!
 # how are you?
