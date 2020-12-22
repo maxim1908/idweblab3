@@ -5,7 +5,7 @@ c=4
 
 add=$((a + b))
 
-if(( $add==$c ))
+if(( $add -eq $c ))
 then
     echo OK
     exit 0
