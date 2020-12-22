@@ -1,10 +1,11 @@
 #!/bin/bash
 a=2
 b=2
+c=4
 
 add=$((a + b))
 
-if(( $add == 4 ))
+if(( $add==$c ))
 then
     echo OK
     exit 0
