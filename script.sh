@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "This was firt test"
-# hello
+#hello
 # hi Geta!
 # how are you?
+#Fine. You're good??
