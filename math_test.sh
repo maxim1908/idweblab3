@@ -1,7 +1,7 @@
 #!/bin/bash
 a=2
 b=2
-c=5
+c=4
 
 add=$((a + b))
 
