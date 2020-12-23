@@ -1,4 +1,3 @@
-  GNU nano 4.8                                                                                                               Cornea1.sh                                                                                                                         
 #!/bin/bash
 
 i=0
