@@ -1,15 +1,20 @@
+  GNU nano 4.8                                                                                                               Cornea1.sh                                                                                                                         
 #!/bin/bash
 
-i=20
+i=0
 
-while [ $i >= 5 ]
+while [ $i -le 5 ]
 do
   echo Number: $i
-  let "i-=5" 
+  let "i+=1" 
   
- if [ $count -eq 4 ];
+ if [ $i -eq 4 ];
   then
+    echo "exit 0"
     exit 0
   fi
   
 done
+
+echo "exit 1"
+exit 1
