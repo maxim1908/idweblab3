@@ -6,7 +6,8 @@ do
   echo $count
   if [ $count -eq 5 ];
   then
-    break
+    valid=false
+    exit 0
   fi
   ((count++))
 done
