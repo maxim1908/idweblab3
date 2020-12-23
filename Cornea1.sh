@@ -5,6 +5,7 @@ do
   echo $count
   if [ $count -eq 5 ];
   then
+  break
     exit 0
   fi
   ((count++))
