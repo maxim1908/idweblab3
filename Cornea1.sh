@@ -1,16 +1,15 @@
 #!/bin/bash
-count=1
-while [ true ]
+
+i=20
+
+while [ $i -ge 5 ]
 do
-  echo $count
-  if [ $count -eq 5 ];
+  echo Number: $i
+  let "i-=5" 
+  
+ if [ $count -eq 4 ];
   then
-  break
     exit 0
   fi
-  ((count++))
-  if [ $count -eq 6 ]
-  then 
-    exit 1
-  fi
+  
 done
