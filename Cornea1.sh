@@ -2,7 +2,7 @@
 
 i=20
 
-while [ $i -eq 5 ]
+while [ $i >= 5 ]
 do
   echo Number: $i
   let "i-=5" 
