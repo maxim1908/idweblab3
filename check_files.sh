@@ -32,3 +32,5 @@ FILE=$(pwd)/verscript2.sh
 check;
 
 exit 0
+
+#tmp
