@@ -1,11 +1,10 @@
 #!/bin/bash
 
-echo -n "Enter any number:"
-read n
+for (( counter=1; counter<=10; counter++ ))
+do
+echo -n "$counter "
+done
 
-if [[ ( $n -eq 15 || $n -eq 45 ) ]]
-then
-echo "You won"
-else
-echo "You lost!"
-fi
+printf "\n"
+
+exit 0
