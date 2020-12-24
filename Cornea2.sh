@@ -3,7 +3,7 @@ function F1()
 {
   echo 'Sunt Ion si am un pisoi pe nume Tom'
 }
-if (( !F1 ))
+if (( F1==true ))
 then
   echo 'Functia exista'
   F1
