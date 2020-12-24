@@ -1,7 +1,9 @@
 #!/bin/bash
-: '
-This script calculates
-the square of 5.
-'
-((area=5*5))
-echo $area
+
+if (isToate){
+echo "is toate"
+exit 0
+} else { 
+echo "nus toate"
+exit 1
+}
